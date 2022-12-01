@@ -42,7 +42,7 @@ public class HomePage extends BasePage {
         waitForSecond(2);
 
         if (drivers().getCurrentUrl()==URL) {
-            System.out.println("Moved to page 2");
+            System.out.println("Moved to page two");
         }
 
         waitForSecond(1);
